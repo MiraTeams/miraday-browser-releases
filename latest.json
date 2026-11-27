@@ -10,7 +10,7 @@
       {
         "name": "MiraDayBrowser-0.4.13-macOS-arm64.dmg",
         "size": 224791522,
-        "state": "starter",
+        "state": "uploaded",
         "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.13/MiraDayBrowser-0.4.13-macOS-arm64.dmg"
       },
       {
@@ -22,7 +22,7 @@
       {
         "name": "MiraDayBrowser-0.4.13-Windows-x64-Setup.exe",
         "size": 192741604,
-        "state": "starter",
+        "state": "uploaded",
         "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.13/MiraDayBrowser-0.4.13-Windows-x64-Setup.exe"
       },
       {
