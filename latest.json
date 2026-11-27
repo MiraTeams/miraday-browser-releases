@@ -18,6 +18,18 @@
         "size": 104,
         "state": "uploaded",
         "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.11/MiraDayBrowser-0.4.11-macOS-arm64.dmg.sha256"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.11-Windows-x64-Setup.exe",
+        "size": 192715334,
+        "state": "starter",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.11/MiraDayBrowser-0.4.11-Windows-x64-Setup.exe"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.11-Windows-x64-Setup.exe.sha256",
+        "size": 110,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.11/MiraDayBrowser-0.4.11-Windows-x64-Setup.exe.sha256"
       }
     ]
   }
