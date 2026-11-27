@@ -2,34 +2,34 @@
   "schema": 1,
   "repository": "MiraTeams/miraday-browser-releases",
   "release": {
-    "tag_name": "v0.4.12",
-    "html_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/tag/v0.4.12",
+    "tag_name": "v0.4.13",
+    "html_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/tag/v0.4.13",
     "draft": false,
     "prerelease": false,
     "assets": [
       {
-        "name": "MiraDayBrowser-0.4.12-macOS-arm64.dmg",
-        "size": 220173306,
+        "name": "MiraDayBrowser-0.4.13-macOS-arm64.dmg",
+        "size": 224401005,
         "state": "uploaded",
-        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.12/MiraDayBrowser-0.4.12-macOS-arm64.dmg"
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.13/MiraDayBrowser-0.4.13-macOS-arm64.dmg"
       },
       {
-        "name": "MiraDayBrowser-0.4.12-macOS-arm64.dmg.sha256",
+        "name": "MiraDayBrowser-0.4.13-macOS-arm64.dmg.sha256",
         "size": 104,
         "state": "uploaded",
-        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.12/MiraDayBrowser-0.4.12-macOS-arm64.dmg.sha256"
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.13/MiraDayBrowser-0.4.13-macOS-arm64.dmg.sha256"
       },
       {
-        "name": "MiraDayBrowser-0.4.12-Windows-x64-Setup.exe",
-        "size": 192725032,
+        "name": "MiraDayBrowser-0.4.13-Windows-x64-Setup.exe",
+        "size": 192741861,
         "state": "uploaded",
-        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.12/MiraDayBrowser-0.4.12-Windows-x64-Setup.exe"
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.13/MiraDayBrowser-0.4.13-Windows-x64-Setup.exe"
       },
       {
-        "name": "MiraDayBrowser-0.4.12-Windows-x64-Setup.exe.sha256",
+        "name": "MiraDayBrowser-0.4.13-Windows-x64-Setup.exe.sha256",
         "size": 111,
         "state": "uploaded",
-        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.12/MiraDayBrowser-0.4.12-Windows-x64-Setup.exe.sha256"
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.13/MiraDayBrowser-0.4.13-Windows-x64-Setup.exe.sha256"
       }
     ]
   }
