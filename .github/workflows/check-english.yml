@@ -1,0 +1,45 @@
+name: Check English-only public content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Reject Chinese in paths, files, and commit metadata
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          import subprocess
+
+          chinese = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]')
+          root = Path('.')
+          for path in root.rglob('*'):
+              if '.git' in path.parts:
+                  continue
+              assert not chinese.search(str(path)), f'Chinese in path: {path}'
+              if path.is_file():
+                  try:
+                      text = path.read_text(encoding='utf-8')
+                  except UnicodeDecodeError:
+                      continue
+                  assert not chinese.search(text), f'Chinese in file: {path}'
+          history = subprocess.check_output([
+              'git', 'log', '--format=%an%n%ae%n%s%n%b'
+          ], text=True)
+          assert not chinese.search(history), 'Chinese in commit metadata'
+          print('Public paths, readable files, and commit metadata contain no Chinese')
