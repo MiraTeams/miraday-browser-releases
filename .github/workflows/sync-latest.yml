@@ -1,4 +1,4 @@
-name: 同步稳定版清单
+name: Sync stable release manifest
 
 on:
   release:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: 更新 main 上的 latest.json
+      - name: Update latest.json on main
         env:
           GH_TOKEN: ${{ github.token }}
         shell: python
@@ -71,14 +71,14 @@ jobs:
                   page += 1
 
           manifest = {'schema': 1, 'repository': repository, 'release': release}
-          output = (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode()
+          output = (json.dumps(manifest, ensure_ascii=True, indent=2) + '\n').encode('ascii')
           path = '/contents/latest.json'
           existing = request(path + '?ref=main')
           if base64.b64decode(existing['content']) == output:
               print('main/latest.json is current')
           else:
               result = request(path, {
-                  'message': '同步最新稳定版清单',
+                  'message': 'Update stable release manifest',
                   'branch': 'main',
                   'sha': existing['sha'],
                   'content': base64.b64encode(output).decode(),
