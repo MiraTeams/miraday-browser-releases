@@ -1,5 +1,48 @@
 {
   "schema": 1,
   "repository": "MiraTeams/miraday-browser-releases",
-  "release": null
+  "release": {
+    "tag_name": "v0.4.16",
+    "html_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/tag/v0.4.16",
+    "draft": false,
+    "prerelease": false,
+    "assets": [
+      {
+        "name": "MiraDayBrowser-0.4.16-macOS-arm64.dmg",
+        "size": 219874640,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.16/MiraDayBrowser-0.4.16-macOS-arm64.dmg"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.16-macOS-arm64.dmg.sha256",
+        "size": 104,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.16/MiraDayBrowser-0.4.16-macOS-arm64.dmg.sha256"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.16-macOS-x64.dmg",
+        "size": 232645444,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.16/MiraDayBrowser-0.4.16-macOS-x64.dmg"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.16-macOS-x64.dmg.sha256",
+        "size": 102,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.16/MiraDayBrowser-0.4.16-macOS-x64.dmg.sha256"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.16-Windows-x64-Setup.exe",
+        "size": 192766459,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.16/MiraDayBrowser-0.4.16-Windows-x64-Setup.exe"
+      },
+      {
+        "name": "MiraDayBrowser-0.4.16-Windows-x64-Setup.exe.sha256",
+        "size": 111,
+        "state": "uploaded",
+        "browser_download_url": "https://github.com/MiraTeams/miraday-browser-releases/releases/download/v0.4.16/MiraDayBrowser-0.4.16-Windows-x64-Setup.exe.sha256"
+      }
+    ]
+  }
 }
